@@ -1,0 +1,45 @@
+Configuration	smartAlarmCube
+STM32CubeMX 	4.20.0
+Date	07/09/2017
+MCU	STM32F103C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	
+32	PA11	USB_DM	
+33	PA12	USB_DP	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : smartAlarmCube
+Project Folder : C:\work\SmartAlarm\smartAlarmCube
+Toolchain / IDE : MDK-ARM V4
+Firmware Package Name and Version : STM32Cube FW_F1 V1.4.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
